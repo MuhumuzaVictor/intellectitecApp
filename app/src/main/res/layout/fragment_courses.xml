@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intelli"
+    android:alpha="0.6"
+    android:orientation="vertical"
+    tools:context=".Courses">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="200px"
+        android:layout_marginStart="20px"
+        android:layout_marginEnd="20px"
+        android:text="Join the Millions for better learning." />
+    <TextView
+        android:id="@+id/head3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500px"
+        android:layout_marginStart="130px"
+        android:layout_marginEnd="120px"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_baseline_grade_24"
+        android:drawablePadding="1px"
+        android:textSize="25dp"
+        android:text="The Complete Android Kotlin Developer Course"
+        />
+    <TextView
+        android:id="@+id/head4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="680px"
+        android:layout_marginStart="130px"
+        android:layout_marginEnd="120px"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_baseline_grade_24"
+        android:drawablePadding="1px"
+        android:textSize="25dp"
+        android:text="SwiftUI 3 and Swift 5.5: iOS App Development for iOS 15"
+        />
+    <TextView
+        android:id="@+id/head5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="900px"
+        android:layout_marginStart="130px"
+        android:layout_marginEnd="120px"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_baseline_grade_24"
+        android:drawablePadding="1px"
+        android:textSize="25dp"
+        android:text="Logistics Management: International Transport  Shipping"
+        />
+
+
+
+</FrameLayout>

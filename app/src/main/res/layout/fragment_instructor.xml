@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E2147"
+    tools:context=".instructor">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="20px"
+        android:layout_marginTop="200px"
+        android:layout_marginBottom="500px"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Instructors" />
+    <TextView
+        android:id="@+id/instructor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500px"
+        android:layout_marginStart="130px"
+        android:layout_marginEnd="120px"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="1px"
+        android:textSize="25dp"
+        android:text="BRIAN MUTEBI"
+        />
+    <TextView
+        android:id="@+id/instructor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="700px"
+        android:layout_marginStart="130px"
+        android:layout_marginEnd="120px"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="1px"
+        android:textSize="25dp"
+        android:text="NKATA GERALD"
+        />
+    <TextView
+        android:id="@+id/instructor3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="900px"
+        android:layout_marginStart="130px"
+        android:layout_marginEnd="120px"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="1px"
+        android:textSize="25dp"
+        android:text="KATO MIKE"
+        />
+    <TextView
+        android:id="@+id/instructor4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1100px"
+        android:layout_marginStart="130px"
+        android:layout_marginEnd="120px"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="1px"
+        android:textSize="25dp"
+        android:text="LAURANCE  GARTSIDE"
+        />
+
+</FrameLayout>

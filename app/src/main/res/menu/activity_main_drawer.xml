@@ -2,10 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-
-
     <group android:checkableBehavior="single">
-
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_baseline_home_24"
@@ -13,7 +10,7 @@
         <item
             android:id="@+id/nav_courses"
             android:icon="@drawable/ic_baseline_school_24"
-            android:title="Courses" />
+            android:title="Courses"/>
         <item
             android:id="@+id/nav_classes"
             android:icon="@drawable/ic_baseline_class_24"
@@ -26,9 +23,28 @@
             android:id="@+id/nav_instructor"
             android:icon="@drawable/ic_baseline_people_alt_24"
             android:title="Instructors" />
-        <item
-            android:id="@+id/nav_contactus"
-            android:icon="@drawable/ic_baseline_contact_mail_24"
-            android:title="Contact Us" />
+
+    <item android:title="communication">
+        <menu>
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/ic_baseline_contact_mail_24"
+                android:title="Contact Us" />
+
+        </menu>
+    </item>
+        <item android:title="Settings and privacy">
+            <menu>
+                <item
+                    android:id="@+id/nav_Account"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="Account" />
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_baseline_account_circle_24"
+                    android:title="Settings" />
+
+            </menu>
+        </item>
     </group>
 </menu>

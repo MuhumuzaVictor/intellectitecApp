@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E2147"
+    tools:context=".contactus">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginStart="30px"
+        android:layout_marginEnd="30px"
+        android:layout_marginTop="100px"
+        android:layout_marginBottom="500px"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Reach out to us through;" />
+    <TextView
+        android:id="@+id/contact1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500px"
+        android:layout_marginStart="130px"
+        android:layout_marginEnd="120px"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_baseline_add_ic_call_24"
+        android:drawablePadding="1px"
+        android:textSize="25dp"
+        android:text="0761656330 \n0785221820"
+        />
+    <TextView
+        android:id="@+id/contact2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="700px"
+        android:layout_marginStart="130px"
+        android:layout_marginEnd="120px"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="1px"
+        android:textSize="25dp"
+        android:text="intellectitecacad@gmail.com"
+        />
+
+</FrameLayout>

@@ -12,14 +12,43 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.viktadzy.intellectitecapp.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
-    <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.viktadzy.intellectitecapp.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_courses"
+        android:name="com.viktadzy.intellectitecapp.Courses"
+        android:label="courses"
+        tools:layout="@layout/fragment_courses" />
+    <fragment
+        android:id="@+id/nav_classes"
+        android:name="com.viktadzy.intellectitecapp.classes"
+        android:label="Classes"
+        tools:layout="@layout/fragment_classes" />
+    <fragment
+        android:id="@+id/nav_quiz"
+        android:name="com.viktadzy.intellectitecapp.quiz"
+        android:label="Quiz"
+        tools:layout="@layout/fragment_quiz" />
+    <fragment
+        android:id="@+id/nav_instructor"
+        android:name="com.viktadzy.intellectitecapp.instructor"
+        android:label="Instructors"
+        tools:layout="@layout/fragment_instructor" />
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.viktadzy.intellectitecapp.contactus"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contactus" />
+    <fragment
+        android:id="@+id/nav_Account"
+        android:name="com.viktadzy.intellectitecapp.Account"
+        android:label="Account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.viktadzy.intellectitecapp.Settings"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>
